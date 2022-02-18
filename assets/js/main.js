@@ -40,10 +40,27 @@ const scrollHeader = () => {
 
 window.addEventListener('scroll', scrollHeader)
 /*=============== MIXITUP FILTER PRODUCTS ===============*/
-
+let mixerProducts = mixitup('.products__content', {
+  selectors: {
+    target: '.products__card',
+  },
+  animation: {
+    duration: 300,
+  },
+})
 /* Default filter products */
-
+mixerProducts.filter('.delicacies')
 /* Link active products */
+const linkProducts = document.querySelectorAll('.products__item')
+
+linkProducts.forEach((link) => {
+  link.addEventListener('click', () => {
+    linkProducts.forEach((link) => {
+      link.classList.remove('active-product')
+    })
+    link.classList.add('active-product')
+  })
+})
 
 /*=============== SHOW SCROLL UP ===============*/
 

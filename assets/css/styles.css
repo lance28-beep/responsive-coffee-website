@@ -393,12 +393,47 @@ button {
   background-color: var(--container-color);
   border-radius: 0.5rem;
 }
-
 .products__img {
   width: 150px;
+  transition: 0.4s;
+}
+
+.products__shape {
+  background-color: var(--card-color);
+  border-radius: 0.5rem 0.5rem 0 0;
+  text-align: center;
+  padding: 0.25rem 0;
+}
+.products__data {
+  padding: 1rem 0 1.25rem 1rem;
+  position: relative;
+}
+.products__price {
+  font-size: var(--h2-font-size);
+}
+
+.products__name {
+  font-size: var(--normal-font-size);
+}
+
+.products__button {
+  border-radius: 50%;
+  padding: 0.625rem;
+  display: inline-flex;
+  font-size: 1.25rem;
+  position: absolute;
+  right: 1rem;
+  top: -1.25rem;
+  box-shadow: 0 4px 12px hsla(206, 4%, 4%, 0.2);
+}
+
+.products__card:hover .products__img {
+  transform: scale(1.1);
 }
 /* Active link products */
-
+.active-product .products__title {
+  color: var(--title-color);
+}
 /*=============== QUALITY ===============*/
 
 /*=============== LOGOS ===============*/

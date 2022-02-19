@@ -30,7 +30,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#home" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
                         <a href="#products" class="nav__link">Products</a>
@@ -343,17 +343,147 @@
         </section>
 
         <!--==================== LOGOS ====================-->
-        <section class="logo section"></section>
+        <section class="logo section">
+            <div class="logo__container container grid">
+                <img src="assets/img/logocoffee1.png" alt="" class="logo__img">
+                <img src="assets/img/logocoffee2.png" alt="" class="logo__img">
+                <img src="assets/img/logocoffee3.png" alt="" class="logo__img">
+                <img src="assets/img/logocoffee4.png" alt="" class="logo__img">
+                <img src="assets/img/logocoffee5.png" alt="" class="logo__img">
+            </div>
+        </section>
 
         <!--==================== BLOG ====================-->
-        <section class="blog section" id="blog"></section>
+        <section class="blog section" id="blog">
+            <div class="blog__contaier container">
+                <h2 class="section__title">
+                    Our Blog Coffee with trending topic for this week
+                </h2>
+                <div class="blog__content grid">
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/blog1.png" alt="" class="blog__img">
+                            <a href="#" class="blog__button">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                10 Coffee Recipes for the Coffee Lovers
+                            </h2>
+                            <p class="blog__description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit rerum quam sit
+                                nam temporibus obcaecati similique nesciunt ab delectus odio maiores iste, libero ea
+                                dolores.
+                            </p>
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment'></i>
+                                    <span>12</span>
+                                </div>
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show'></i>
+                                    <span>76,5K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/blog2.png" alt="" class="blog__img">
+                            <a href="#" class="blog__button">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                12 benefits of coffee for your health
+                            </h2>
+                            <p class="blog__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, beatae reprehenderit.
+                                Eligendi error temporibus accusantium.
+                            </p>
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment'></i>
+                                    <span>45</span>
+                                </div>
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show'></i>
+                                    <span>85.9K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Coffee.</h1>
+            <div class="footer__content grid">
+                <p class="footer__description">
+                    Subscribe to our newsletter to receive the latest news and updates
+                </p>
+                <div class="footer__newsletter">
+                    <input type="email" placeholder="Your email address" class="footer__input">
+                    <button class="footer__button">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                </div>
+                <div class="footer__data">
+                    <h2 class="footer__subtitle">Address</h2>
+                    <p class="footer__informantion">
+                        #147 Zone 7,Brgy Talidtid <br>
+                        Canaman Camarines Sur Philippines
+                        <img src="assets/img/footerflag.png" alt="" class="footer__flag">
+                    </p>
+
+                </div>
+                <div class="footer__data">
+                    <h2 class="footer__subtitle">Contact</h2>
+                    <p class="footer__informantion">
+                        +96354-567-8910 <br>
+                        lanceValle@gmail.com
+                    </p>
+                </div>
+                <div class="footer__data">
+                    <h2 class="footer__subtitle">Office</h2>
+                    <p class="footer__informantion">
+                        Monday - Saturday <br>
+                        9:00 AM - 5:00 PM
+                    </p>
+                </div>
+            </div>
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="#" target='_blank' class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="#" target='_blank' class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="#" target='_blank' class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="#" target='_blank' class="footer__social-link">
+                        <i class='bx bxl-twitch'></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; 2020 Lance Valle. All rights reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
 
     <!--========== SCROLL UP ==========-->
-
+    <a href="" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
     <!--=============== MIXITUP FILTER ===============-->
     <script src="assets/js/mixitup.min.js"></script>
 
